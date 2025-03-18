@@ -39,7 +39,7 @@ const NormalNetApp = () => {
         {/* Right side - Sphere visualization */}
         <div className="md:w-1/2 flex justify-center">
           <img 
-            src="/api/placeholder/400/400" 
+            src="/Assets/Banner.png"
             alt="Brick textured sphere" 
             className="rounded-full w-64 h-64 md:w-80 md:h-80 object-cover shadow-lg"
           />
