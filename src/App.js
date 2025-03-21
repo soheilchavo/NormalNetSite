@@ -174,7 +174,7 @@ const NormalNetApp = () => {
           
           <AnimatedButton className="px-8 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-full text-lg font-semibold shadow-lg hover:shadow-xl">
             <a href="https://github.com/soheilchavo/NormalNet" target="_blank">
-              Try Normal-Net Today
+              Try NormalNet
             </a>
           </AnimatedButton>
         </div>
@@ -270,6 +270,7 @@ const NormalNetApp = () => {
               <div className="w-16 h-1 bg-blue-400 mb-6"></div>
               <p className="text-gray-300 mb-8">
                 Have questions, feedback, or ideas for Normal-Net? I'd love to hear from you! Reach out via email and I'll get back to you as soon as possible.
+                You can also reach me through my GitHub, all messages are welcome.
               </p>
             </div>
             <div className="flex justify-start">
