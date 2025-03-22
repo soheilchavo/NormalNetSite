@@ -3,6 +3,15 @@ import ImageComparisonSlider from './ImageComparisonSlider';
 import { TextReveal, GradientText, FloatingElement, AnimatedButton, StaggeredList } from './AnimationComponents';
 import './AnimationStyles.css';
 
+import bannerBefore from './Assets/Banner-Before.png';
+import bannerAfter from './Assets/Banner.png';
+import concreteBefore from './Assets/Concrete-Before.png';
+import concreteAfter from './Assets/Concrete-After.png';
+import pebblesBefore from './Assets/Pebbles-Before.png';
+import pebblesAfter from './Assets/Pebbles-After.png';
+import woodBefore from './Assets/Wood-Before.png';
+import woodAfter from './Assets/Wood-After.png';
+
 const NormalNetApp = () => {
   const [isLoaded, setIsLoaded] = useState(false);
   
@@ -109,8 +118,8 @@ const NormalNetApp = () => {
           <div className="md:w-1/2 flex justify-center">
             <FloatingElement className={`${isLoaded ? 'animate-fade-in' : 'opacity-0'}`} amplitude={8} duration={6}>
               <ImageComparisonSlider
-                beforeImage="/Assets/Banner-Before.png"
-                afterImage="/Assets/Banner.png"
+                beforeImage={bannerBefore}
+                afterImage={bannerAfter}
                 alt=""
                 className="rounded-full w-64 h-64 md:w-80 md:h-80 shadow-lg"
               />
@@ -129,8 +138,8 @@ const NormalNetApp = () => {
           <div className={`flex justify-center ${isLoaded ? 'animate-slide-in-delayed-1' : 'opacity-0'}`}>
             <FloatingElement amplitude={6} duration={7}>
               <ImageComparisonSlider
-                beforeImage="/Assets/Pebbles-Before.png"
-                afterImage="/Assets/Pebbles-After.png"
+                beforeImage={pebblesBefore}
+                afterImage={pebblesAfter}
                 alt=""
                 className="rounded-full w-48 h-48 shadow-lg hover:shadow-xl transition-shadow duration-300"
               />
@@ -142,8 +151,8 @@ const NormalNetApp = () => {
           <div className={`flex justify-center ${isLoaded ? 'animate-slide-in-delayed-2' : 'opacity-0'}`}>
             <FloatingElement amplitude={6} duration={8}>
               <ImageComparisonSlider
-                beforeImage="/Assets/Wood-Before.png"
-                afterImage="/Assets/Wood-After.png"
+                beforeImage={woodBefore}
+                afterImage={woodAfter}
                 alt=""
                 className="rounded-full w-48 h-48 shadow-lg hover:shadow-xl transition-shadow duration-300"
               />
@@ -155,8 +164,8 @@ const NormalNetApp = () => {
           <div className={`flex justify-center ${isLoaded ? 'animate-slide-in-delayed-3' : 'opacity-0'}`}>
             <FloatingElement amplitude={6} duration={6.5}>
               <ImageComparisonSlider
-                beforeImage="/Assets/Concrete-Before.png"
-                afterImage="/Assets/Concrete-After.png"
+                beforeImage={concreteBefore}
+                afterImage={concreteAfter}
                 alt=""
                 className="rounded-full w-48 h-48 shadow-lg hover:shadow-xl transition-shadow duration-300"
               />
