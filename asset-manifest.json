@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/NormalNetSite/static/css/main.c1018b30.css",
-    "main.js": "/NormalNetSite/static/js/main.fe463e04.js",
+    "main.js": "/NormalNetSite/static/js/main.56d32101.js",
     "static/js/453.f8831b8c.chunk.js": "/NormalNetSite/static/js/453.f8831b8c.chunk.js",
     "static/media/Pebbles-After.png": "/NormalNetSite/static/media/Pebbles-After.231ca4d6bccc196cd500.png",
     "static/media/Pebbles-Before.png": "/NormalNetSite/static/media/Pebbles-Before.f9ec3286d92da7a3ab64.png",
@@ -13,11 +13,11 @@
     "static/media/Banner-Before.png": "/NormalNetSite/static/media/Banner-Before.ee67e2c9c04deb49b2b0.png",
     "index.html": "/NormalNetSite/index.html",
     "main.c1018b30.css.map": "/NormalNetSite/static/css/main.c1018b30.css.map",
-    "main.fe463e04.js.map": "/NormalNetSite/static/js/main.fe463e04.js.map",
+    "main.56d32101.js.map": "/NormalNetSite/static/js/main.56d32101.js.map",
     "453.f8831b8c.chunk.js.map": "/NormalNetSite/static/js/453.f8831b8c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c1018b30.css",
-    "static/js/main.fe463e04.js"
+    "static/js/main.56d32101.js"
   ]
 }
