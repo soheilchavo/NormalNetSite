@@ -128,10 +128,10 @@ const NormalNetApp = () => {
         </div>
       </section>
 
-      {/* Examples Section - Now clearly separate */}
+      {/* Examples Section */}
       <section ref={examplesRef} className="py-16 px-8 md:px-16 border-t border-gray-800">
         <h2 className={`text-3xl font-bold text-center mb-12 ${isLoaded ? 'animate-slide-in-delayed-3' : ''}`}>
-          <GradientText>Material Examples</GradientText>
+          <GradientText withHoverEffect={true}>Examples</GradientText>
         </h2>
         <div className="flex flex-wrap justify-center gap-8 p-4">
           {/* Sphere 1 - Pebbles texture */}
@@ -192,7 +192,7 @@ const NormalNetApp = () => {
       {/* Support Section (Merged Contact, Contribute, and Donate) */}
       <section ref={supportRef} className="py-16 px-8 md:px-16 border-t border-gray-800 bg-gray-900">
         <h2 className="text-3xl font-bold text-center mb-12">
-          <GradientText>Support & Connect</GradientText>
+          <GradientText withHoverEffect={true}>Support & Connect</GradientText>
         </h2>
         
         <div className="max-w-4xl mx-auto grid md:grid-cols-3 gap-8">
@@ -250,7 +250,7 @@ const NormalNetApp = () => {
             <div className="flex justify-start">
               <AnimatedButton className="px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-md shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105">
                 <a 
-                  href="https://donate.normal-net.org" 
+                  href="https://buymeacoffee.com/soheilchavo?new=1" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="flex items-center justify-center"
@@ -258,7 +258,7 @@ const NormalNetApp = () => {
                   <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                   </svg>
-                  <span>Donate</span>
+                  <span>Buy Me a Coffee</span>
                 </a>
               </AnimatedButton>
             </div>
