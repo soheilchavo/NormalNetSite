@@ -1,15 +1,23 @@
 {
   "files": {
     "main.css": "/NormalNetSite/static/css/main.c1018b30.css",
-    "main.js": "/NormalNetSite/static/js/main.8b3fee14.js",
+    "main.js": "/NormalNetSite/static/js/main.fe463e04.js",
     "static/js/453.f8831b8c.chunk.js": "/NormalNetSite/static/js/453.f8831b8c.chunk.js",
+    "static/media/Pebbles-After.png": "/NormalNetSite/static/media/Pebbles-After.231ca4d6bccc196cd500.png",
+    "static/media/Pebbles-Before.png": "/NormalNetSite/static/media/Pebbles-Before.f9ec3286d92da7a3ab64.png",
+    "static/media/Concrete-After.png": "/NormalNetSite/static/media/Concrete-After.36fbc16ab7589c12f303.png",
+    "static/media/Wood-After.png": "/NormalNetSite/static/media/Wood-After.c739260fa38bbac4112e.png",
+    "static/media/Banner.png": "/NormalNetSite/static/media/Banner.974eacae4452f0c0ac59.png",
+    "static/media/Concrete-Before.png": "/NormalNetSite/static/media/Concrete-Before.10faf537300edb9b21d2.png",
+    "static/media/Wood-Before.png": "/NormalNetSite/static/media/Wood-Before.f3406557120abb4464f8.png",
+    "static/media/Banner-Before.png": "/NormalNetSite/static/media/Banner-Before.ee67e2c9c04deb49b2b0.png",
     "index.html": "/NormalNetSite/index.html",
     "main.c1018b30.css.map": "/NormalNetSite/static/css/main.c1018b30.css.map",
-    "main.8b3fee14.js.map": "/NormalNetSite/static/js/main.8b3fee14.js.map",
+    "main.fe463e04.js.map": "/NormalNetSite/static/js/main.fe463e04.js.map",
     "453.f8831b8c.chunk.js.map": "/NormalNetSite/static/js/453.f8831b8c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c1018b30.css",
-    "static/js/main.8b3fee14.js"
+    "static/js/main.fe463e04.js"
   ]
 }
